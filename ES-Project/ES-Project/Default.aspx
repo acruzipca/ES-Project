@@ -6,13 +6,13 @@
         <div class="form-group col-md-8 col-md-offset-2 col-md-offset-2">
             <div class="col-md-8 col-md-offset-2 col-md-offset-2">
                 <div class="row">
-                    <asp:Label runat="server" Text="Utilizador"></asp:Label>
-                    <asp:TextBox runat="server" CssClass="form-control" Width="400px"></asp:TextBox>
+                    <asp:Label runat="server" Text="Utilizador" ID="lbUser"></asp:Label>
+                    <asp:TextBox runat="server" CssClass="form-control" Width="400px" ID="txtUser"></asp:TextBox>
                 </div>
                 <br />
                 <div class="row">
-                    <asp:Label runat="server" Text="Password"></asp:Label>
-                    <asp:TextBox runat="server" CssClass="form-control" Width="400px"></asp:TextBox>
+                    <asp:Label runat="server" Text="Password" ID="lbPassword"></asp:Label>
+                    <asp:TextBox runat="server" CssClass="form-control" Width="400px" ID="txtPassword"></asp:TextBox>
                 </div>
             </div>
         </div>
@@ -20,7 +20,7 @@
 
     <div class="row">
         <div class="col-md-3 col-md-offset-5 col-md-offset-3">
-            <asp:Button runat="server" CssClass="btn btn-primary" Text="Entrar"></asp:Button>
+            <asp:Button runat="server" CssClass="btn btn-primary" Text="Entrar" ID="btnEnter"></asp:Button>
         </div>
     </div>
 
